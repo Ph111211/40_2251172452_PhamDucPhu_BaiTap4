@@ -4,8 +4,8 @@ public class Main {
          GiaoDich giaoDich = new GiaoDich(taiKhoan, 500000);
          System.out.println("Ten tai khoan: " + taiKhoan.getTenTaiKhoan());
          System.out.println("So du: " + taiKhoan.getSoDu());
-         giaoDich.rutTien(200000);
-         giaoDich.rutTien(900000); 
+         giaoDich.ThucHienGiaoDich(200000);
+         giaoDich.ThucHienGiaoDich(900000); 
      }
 }
  

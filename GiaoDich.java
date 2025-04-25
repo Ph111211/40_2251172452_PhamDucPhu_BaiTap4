@@ -24,7 +24,7 @@ public class GiaoDich {
     public void setSoTienGiaoDich(double soTien) {
         this.soTien = soTien;
     }
-    public void rutTien(double soTien) {
+    public void ThucHienGiaoDich(double soTien) {
         if (soTien <= taiKhoan.getSoDu()) {
             taiKhoan.setSoDu(taiKhoan.getSoDu() - soTien);
             System.out.println("Rut thanh cong, so du con: " + taiKhoan.getSoDu());
