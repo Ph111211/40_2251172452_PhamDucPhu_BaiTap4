@@ -1,8 +1,8 @@
 class main {
     public static void main(String[] args){
         TaxableItem items[] = new TaxableItem[2];
-        TaxableItemFactory bookFactory = new BookFactory();
-        TaxableItemFactory electronicsFactory = new ElectronicsFactory();
+        TaxableItemFactory bookFactory = new BookTaxFactory();
+        TaxableItemFactory electronicsFactory = new ElectronicsTaxFactory();
         items[0] = bookFactory.createItem(1200);
         items[1] = electronicsFactory.createItem(3000);
         TaxCalculator mt = new TaxCalculator();
